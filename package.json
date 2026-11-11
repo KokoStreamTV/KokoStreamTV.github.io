@@ -1,0 +1,9 @@
+{
+  "name": "kokostreamtv-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "AGPL-3.0-only"
+}

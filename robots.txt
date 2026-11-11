@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://koko.lizardbyte.dev/sitemap.xml

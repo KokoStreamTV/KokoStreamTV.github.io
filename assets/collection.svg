@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="580" viewBox="0 0 680 580" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="190" y1="80" x2="370" y2="390" gradientUnits="userSpaceOnUse"><stop stop-color="#3f7568"/><stop offset="1" stop-color="#162e2c"/></linearGradient>
+    <linearGradient id="book" x1="449" y1="165" x2="581" y2="375" gradientUnits="userSpaceOnUse"><stop stop-color="#e1b26e"/><stop offset="1" stop-color="#b88648"/></linearGradient>
+    <radialGradient id="record"><stop stop-color="#282d29"/><stop offset=".7" stop-color="#101614"/><stop offset="1" stop-color="#242e26"/></radialGradient>
+    <linearGradient id="sleeve" x1="305" y1="336" x2="483" y2="522" gradientUnits="userSpaceOnUse"><stop stop-color="#8cbb7b"/><stop offset="1" stop-color="#54794e"/></linearGradient>
+    <filter id="shadow" x="-40%" y="-35%" width="180%" height="190%"><feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#07140e" flood-opacity=".22"/></filter>
+    <clipPath id="poster"><rect x="144" y="78" width="286" height="378" rx="16"/></clipPath>
+  </defs>
+  <circle cx="350" cy="285" r="235" fill="#8fd35a" opacity=".07"/>
+  <circle cx="350" cy="285" r="235" stroke="#87ab72" stroke-opacity=".19"/>
+  <circle cx="350" cy="285" r="190" stroke="#87ab72" stroke-opacity=".1" stroke-dasharray="3 9"/>
+  <path d="M80 319h24m-12-12v24M551 92h16m-8-8v16" stroke="#8eae7d" stroke-width="1.5"/>
+  <circle cx="126" cy="149" r="3" fill="#8eae7d"/>
+  <circle cx="588" cy="428" r="4" fill="#8eae7d" opacity=".6"/>
+  <g transform="rotate(-9 287 267)" filter="url(#shadow)">
+    <rect x="136" y="70" width="302" height="394" rx="22" fill="#d6decd"/>
+    <g clip-path="url(#poster)">
+      <path d="M144 78h286v378H144z" fill="url(#sky)"/>
+      <circle cx="331" cy="167" r="49" fill="#d9dc9a"/>
+      <path d="m124 324 97-130 67 94 62-67 105 128v126H124z" fill="#25504a"/>
+      <path d="m137 355 108-97 60 70 65-33 73 87v90H137z" fill="#142d2e"/>
+      <path d="m144 402 104-57 75 42 107-33v102H144z" fill="#0b2426"/>
+      <path d="m144 427 118-39 168 38v30H144z" fill="#071d21"/>
+      <path d="M167 111h44m-44 6h27" stroke="#d6e2ca" stroke-opacity=".65"/>
+      <text x="169" y="350" fill="#f4f1df" font-family="Georgia,serif" font-size="45" letter-spacing="-1">Somewhere</text>
+      <text x="169" y="396" fill="#f4f1df" font-family="Georgia,serif" font-size="45" font-style="italic" letter-spacing="-1">out there.</text>
+      <text x="171" y="430" fill="#a8c5b2" font-family="Arial,sans-serif" font-size="8" letter-spacing="3">A LITTLE ROOM TO EXPLORE</text>
+    </g>
+  </g>
+  <g transform="rotate(12 488 279)" filter="url(#shadow)">
+    <path d="M420 163h139a9 9 0 0 1 9 9v224a8 8 0 0 1-8 8H420z" fill="#e8e4ce"/>
+    <path d="M423 393h134m-134 4h133m-133 4h133" stroke="#c7c5b1"/>
+    <path d="M412 158h144a8 8 0 0 1 8 8v224H412z" fill="url(#book)"/>
+    <path d="M412 158h13v232h-13z" fill="#a47342"/>
+    <path d="M435 176h111v194H435z" stroke="#79542d" stroke-opacity=".5"/>
+    <text x="450" y="210" fill="#392a1b" font-family="Georgia,serif" font-size="25">The</text>
+    <text x="450" y="239" fill="#392a1b" font-family="Georgia,serif" font-size="25">Quiet</text>
+    <text x="450" y="268" fill="#392a1b" font-family="Georgia,serif" font-size="25">Hours</text>
+    <path d="M453 320c6-19 19-23 32-42-3 17-8 31-21 43m34 13c-6-24-21-24-32-39 2 16 11 30 23 38" stroke="#6b693f" stroke-width="1.4"/>
+    <path d="m474 355 13-53" stroke="#6b693f" stroke-width="1.4"/>
+    <text x="448" y="360" fill="#634628" font-family="Arial,sans-serif" font-size="6.5" letter-spacing="1.3">A COLLECTION OF STORIES</text>
+  </g>
+  <g filter="url(#shadow)">
+    <circle cx="461" cy="403" r="116" fill="url(#record)" stroke="#38473b"/>
+    <g stroke="#556256" stroke-opacity=".24"><circle cx="461" cy="403" r="105"/><circle cx="461" cy="403" r="98"/><circle cx="461" cy="403" r="91"/><circle cx="461" cy="403" r="84"/><circle cx="461" cy="403" r="77"/><circle cx="461" cy="403" r="70"/><circle cx="461" cy="403" r="63"/></g>
+    <circle cx="461" cy="403" r="40" fill="#d5e8ad"/>
+    <path d="M424 411c29-16 48 16 74-2" stroke="#6f8c59" stroke-width="5"/>
+    <text x="461" y="391" text-anchor="middle" fill="#3f603b" font-family="Arial,sans-serif" font-size="7" letter-spacing="1.5">ON REPEAT</text>
+    <text x="461" y="428" text-anchor="middle" fill="#3f603b" font-family="Arial,sans-serif" font-size="5" letter-spacing="1.8">SIDE A</text>
+    <circle cx="461" cy="403" r="4" fill="#17221b"/>
+  </g>
+  <g transform="rotate(-5 339 433)" filter="url(#shadow)">
+    <rect x="247" y="340" width="184" height="184" rx="3" fill="url(#sleeve)"/>
+    <path d="M247 455c32-77 93-87 184-24v93H247z" fill="#2d513d"/>
+    <path d="M247 476c60-40 98-21 184 14v34H247z" fill="#1d382e"/>
+    <path d="M260 461c46-92 70-95 155-89" stroke="#d1e0a3" stroke-width="2" stroke-opacity=".6"/>
+    <text x="263" y="371" fill="#f1f3db" font-family="Arial,sans-serif" font-weight="700" font-size="15" letter-spacing=".5">SLOW MORNINGS</text>
+    <text x="263" y="505" fill="#c3d1b2" font-family="Arial,sans-serif" font-size="6.5" letter-spacing="2.8">SOMETHING WORTH KEEPING</text>
+  </g>
+</svg>
